@@ -1,4 +1,4 @@
-import{t as e}from"./rolldown-runtime-DK3Fl9T5.js";import{h as t,tt as n,xt as r}from"./RoomEnvironment-bmj3CBhU.js";import{n as i,t as a}from"./Pass-C-mkzkZq.js";var o={name:`OutputShader`,uniforms:{tDiffuse:{value:null},toneMappingExposure:{value:1}},vertexShader:`
+import{t as e}from"./rolldown-runtime-DK3Fl9T5.js";import{h as t,it as n,wt as r}from"./RoomEnvironment-b4nBiUrw.js";import{n as i,t as a}from"./Pass-C0oKL3cm.js";var o={name:`OutputShader`,uniforms:{tDiffuse:{value:null},toneMappingExposure:{value:1}},vertexShader:`
 		precision highp float;
 
 		uniform mat4 modelViewMatrix;
