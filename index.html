@@ -3,28 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
-    <meta name="theme-color" content="#ffe6ef" />
+    <meta name="theme-color" content="#0b0a14" />
     <title>Cube Master</title>
     <link rel="preload" href="./fonts/baloo2-latin.woff2" as="font" type="font/woff2" crossorigin />
-    <script type="module" crossorigin src="./assets/main-CR31k6Dp.js"></script>
+    <style>html,body{background:#0b0a14;margin:0}#boot{z-index:100;background:radial-gradient(at 50% 42%,#1d1a33 0%,#0b0a14 72%);place-items:center;transition:opacity .5s;display:grid;position:fixed;top:0;bottom:0;left:0;right:0}#boot.gone{opacity:0;pointer-events:none}#boot .mark{justify-items:center;gap:18px;display:grid}#boot .cube{border:2px solid #d9b36c;border-radius:9px;width:42px;height:42px;animation:1.6s cubic-bezier(.6,0,.4,1) infinite boot-turn}#boot .name{color:#f3ecdf;letter-spacing:.02em;font:italic 500 22px Georgia,Times New Roman,serif}@keyframes boot-turn{to{transform:rotate(180deg)}}</style>
+    <script type="module" crossorigin src="./assets/main-3ijoQJvg.js"></script>
     <link rel="modulepreload" crossorigin href="./assets/RoomEnvironment-b4nBiUrw.js">
-    <link rel="modulepreload" crossorigin href="./assets/worlds-BOcEVjq6.js">
-    <link rel="modulepreload" crossorigin href="./assets/fx-CyK8U1Tc.js">
-    <link rel="modulepreload" crossorigin href="./assets/mascots-CIJfMc4L.js">
+    <link rel="modulepreload" crossorigin href="./assets/worlds-BfCsQVOm.js">
+    <link rel="modulepreload" crossorigin href="./assets/fx-BAafxcWQ.js">
     <link rel="modulepreload" crossorigin href="./assets/rolldown-runtime-DK3Fl9T5.js">
-    <link rel="modulepreload" crossorigin href="./assets/CopyShader-CHGAmNbz.js">
     <link rel="modulepreload" crossorigin href="./assets/Pass-C0oKL3cm.js">
+    <link rel="modulepreload" crossorigin href="./assets/OutputPass-BHybEZL1.js">
+    <link rel="modulepreload" crossorigin href="./assets/mascots-bdbgh9Wy.js">
+    <link rel="modulepreload" crossorigin href="./assets/CopyShader-CHGAmNbz.js">
     <link rel="modulepreload" crossorigin href="./assets/EffectComposer-BbELeOHk.js">
     <link rel="modulepreload" crossorigin href="./assets/RenderPass-BZCEFXBE.js">
     <link rel="modulepreload" crossorigin href="./assets/UnrealBloomPass-Die-5ojy.js">
-    <link rel="modulepreload" crossorigin href="./assets/OutputPass-BHybEZL1.js">
-    <link rel="modulepreload" crossorigin href="./assets/gallery-Cqj2pfPM.js">
+    <link rel="modulepreload" crossorigin href="./assets/gallery-CDJR66Go.js">
     <link rel="stylesheet" crossorigin href="./assets/fx-DbrKxJF-.css">
   </head>
   <body>
+    <div id="boot"><div class="mark"><div class="cube"></div><div class="name">Cube Master</div></div></div>
     <canvas id="bgfx"></canvas>
     <div id="stage"></div>
     <canvas id="fx"></canvas>
-    <div id="ui"></div>
+    <div id="ui"></div>
   </body>
 </html>
